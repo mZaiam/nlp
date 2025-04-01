@@ -1,6 +1,6 @@
 #!/bin/bash
-#SBATCH -n 2
-#SBATCH --ntasks-per-node=2
+#SBATCH -n 4
+#SBATCH --ntasks-per-node=4
 #SBATCH -p batch-AMD
 #SBATCH --time=12:00:00
 
